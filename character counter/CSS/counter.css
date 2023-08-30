@@ -1,0 +1,33 @@
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    margin-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(220, 138, 165);
+    width: 800px;
+   height: 250px;
+   
+   
+}
+.container input{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    height: 25%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 60%;
+}
+.re{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    color: rgb(43, 55, 24);
+}
