@@ -1,0 +1,65 @@
+body{
+    background-color:aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    box-shadow:200rem;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+
+}
+.result h2{
+    color: darkolivegreen;
+}
+.result p{
+    font-size: 30px;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2{
+    color: rgb(15, 56, 15);
+}
+.section{
+    
+    display: flex;
+    flex-direction: row;
+    color: green;
+    column-gap: 30px;
+}
+.container button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: darkcyan;
+}
+.react:hover
+{
+    background-color:lightblue;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    padding: 10px;
+    
+  
+}
+.react:active{
+    color:black;
+}
+.img{
+    width: 55px;
+    height: 55px;
+}
