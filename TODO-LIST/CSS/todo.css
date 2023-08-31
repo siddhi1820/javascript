@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(61, 70, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color: azure;
+    color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border:20px solid salmon;
+}
+.container input{
+    background-color: rgb(130, 213, 228);
+    height: 30px;
+    width: 300px;
+    font-size: 30px;
+    border: none;
+}
+.container button{
+    background-color: chartreuse;
+    font-size: 20px;
+    border:none;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.result{
+    font-size: 30px;
+}
+.delete{
+    height: 45px;
+    width: 80px;
+}
+.note{
+    font-size: 14px;
+    color: gray;
+}
